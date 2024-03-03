@@ -23,18 +23,16 @@ export default function Registraion() {
     return <div> <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema} >
         <Form className="text-center">
 
-            {/* <label> Username: </label> */}
             <Field autocomplete="off" className={fixedInputClass} id="inputCreatePost" name="username" placeholder="Username" />
             <ErrorMessage name="username" component="span" />
             <br />
             <br />
 
-            {/* <label> Password: </label> */}
             <Field autocomplete="off" className={fixedInputClass} id="inputCreatePost" name="password"
                 type="password" placeholder="Password" />
             <ErrorMessage name="password" component="span" />
 
-            <button type="submit" className=" shadow-md bg-slate-200 p-3 m-4 rounded-md block center mx-auto"> Submit Post</button>
+            <button type="submit" className=" shadow-md bg-slate-200 p-3 m-4 rounded-md block center mx-auto"> Sign up</button>
         </Form>
     </Formik> </div>
 }
