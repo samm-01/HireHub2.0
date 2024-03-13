@@ -5,7 +5,7 @@ const navLinks = [
     },
     {
         title: 'BLOG',
-        link: 'about-us',
+        link: 'blog',
     },
     // {
     //     title: 'OUR SERVICES',
